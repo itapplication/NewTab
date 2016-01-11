@@ -1,7 +1,7 @@
 /* .bid, .fr, .dev, .ot */
 body {background:#000; color:#ccc;background:url(bg4.jpg) bottom right;}
 #page {width:82%; min-width:300px; margin:0 auto; padding:1em 2em; color:#eee; font-size:0.88em; }
-
+#page.reading {max-width:700px;font-size:1.2em}
 ul.tab {float: left; margin:0.5em 0; padding: 0; clear:both; width:100%;}
 ul.tab li {
 	list-style:none; 
