@@ -11,5 +11,5 @@ Cross browser new tab page app created with simple clientside technology like HT
  * Glipgycon
  * Dashicons
 
-#### Technology planning to use -
+#### Technology planning to be use -
 * Bootstrap
