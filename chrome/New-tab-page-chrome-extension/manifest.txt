@@ -1,0 +1,8 @@
+{
+  "name": "New Tab Page",
+  "description": "New tab page created vy Shivcharan A. Patil",
+  "version": "1.0",
+  "incognito": "split",
+  "chrome_url_overrides": { "newtab": "file:///C:/Apps/browsers/Newtab/index.html" },
+  "manifest_version": 2
+}

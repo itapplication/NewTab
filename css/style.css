@@ -1,0 +1,85 @@
+/* .bid, .fr, .dev, .ot */
+body {background:#000; color:#ccc;background:url(bg4.jpg) bottom right;}
+#page {width:82%; min-width:300px; margin:0 auto; padding:1em 2em; color:#eee; font-size:0.88em; }
+
+ul.tab {float: left; margin:0.5em 0; padding: 0; clear:both; width:100%;}
+ul.tab li {
+	list-style:none; 
+	float:left; 
+	padding:0.4em; 
+	margin:0.5em 0.8em; 
+	border:1px solid rgba(150, 150, 150, 0.5); 
+	border-radius:8px;
+	max-width:115px;/*
+    height:55px;
+    overflow:hidden;*/
+	text-align:center;
+	box-shadow: 7px 7px 8px #333;
+}
+ul.tab li:hover {
+	background: rgba(55, 55, 55, 1);
+	box-shadow: 5px 5px 7px #111;
+	border:1px solid rgba(98, 98, 98, 0.8);
+}
+.bid li {background: rgba(55, 55, 111, 0.3);}
+.fr li {background: rgba(88, 55, 55, 0.3);}
+.dev li {background: rgba(55, 88, 55, 0.3);}
+.ot li {background: rgba(55, 55, 55, 0.3);}
+
+li i {
+	margin:0 auto;
+	min-height:11px;
+	min-width:22px;
+}
+i {font-size:35px !important;}
+i, a i {color:#fff;text-decoration:none;}
+
+li span.dashicons, li i.dashicons {
+	width:40px;
+	height:35px;
+	font-size:35px !important;
+	color:#eee;
+	margin:0 auto;
+ }
+li span.dashicons a {color:#eee;}
+li span.dashicons a:hover {color:#eee;}
+
+li span.label {
+    float: left;
+    padding: 2px;
+    background: rgba(0, 0, 0, 0.2);
+    margin: -2px auto -5px;
+    line-height: 15px;
+    z-index: 9999;
+    opacity: 1;
+    width: 100%;
+	white-space:normal !important;/*override bootstrap css*/
+	font-size:1.1em;
+}
+h2 {display:block; clear:both; width:100%; height:auto; border-top:1px solid #888; font-size:21px !important; color:#aaa; margin:0; padding:1em 0 0; line-height:22px;}
+h2.first {border:0; padding:0;}
+h2 i, h2 span.dashicons {font-size:1.2em !important;}
+h2 span.dashicons {
+	color:#eee;
+	margin:0 7px;
+ }
+
+i img {
+    vertical-align: middle;
+   background: #fff; 
+    border-radius: 5px;
+}
+
+a {color:#acf; font-weight:700; text-decoration:none;}
+a:hover {color:#bef; font-weight:700; text-decoration:none;}
+
+.bid{color:#f55;} .bid a, .bid a .label {color:#faa !important;}
+.fr{color:#8af} .fr a, .fr a .label {color:#abf !important;}
+.dev{color:#ff5;} .dev a, .dev a .label {color:#ffa !important;}
+.ot{color:#e1e1e1;} .ot a,.ot a .label {color:#efefef !important;}
+
+.text {clear:both; width:100%;}
+.text li {list-style:none; width:30%; float:left; padding:0 1%; margin:0 0.5%; border-right:1px solid #aaa; border-left:1px solid #aaa;}
+span.heading {margin:1em 0 2px 8px;float:left;clear:right;}
+.text i, .text .icon {float:left;}
+.text p {clear:both; width:100%; display:block;padding:1em 5px;}

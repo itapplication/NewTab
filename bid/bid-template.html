@@ -1,0 +1,197 @@
+<html ng-app>
+<head>
+<title>Smart bid Template</title>
+<link rel="icon" type="image/png" href="files/favicon.png" />
+<link rel="stylesheet" type="text/css" href="files/style.css">
+<script type="text/javascript" src="files/jquery-2.1.3.min.js" ></script>
+<script type="text/javascript" src="files/sbtemplate.js" ></script>
+<script type="text/javascript" src="files/angular.min.js" ></script>
+<script type="text/javascript" src="files/angular.app.js" ></script>
+</head>
+<body>
+<div id="wrapper">
+<table style="">
+<!-- Show/Hide radio button -->
+<tr>
+<td colspan="2" style="text-align:center;">
+        <div style="text-align:center;font-size:1.5em; line-height:2em;"><label><input type="radio" name="bidcat" value="drupal"> <a href="https://www.freelancer.com/jobs/Drupal/" target="_blank">Drupal</a> </label>
+        <label><input type="radio" name="bidcat" value="wordpress"> <a href="https://www.freelancer.com/jobs/Wordpress/1/" target="_blank">WordPress</a> </label>
+        <label><input type="radio" name="bidcat" value="common"> <a href="https://www.freelancer.com/jobs/twitter-bootstrap/" target="_blank">Common</a> </label></div>
+		
+	<h1 class="drupal box blue"><span class="cat"></span> Drupal > HTML5Guru </h1>
+    <h1 class="wordpress box green"><span class="cat"></span> WordPress > HTML5Guru </h1>
+    <h1 class="common box"><span class="cat"></span> Common > HTML5Guru </h1>
+
+</td>
+</tr>
+<!-- End of Show/Hide radio button -->
+
+<tr class="drupal blue box">
+<td class="bid left" onclick="select_all(this)">
+<div >
+Hello, _________________________________________________ _______ ___ I am CERTIFIED DRUPAL EXPERT <span class="dr-completion">with HIGHEST Completion Rate</span>. ________ _______________________________ ________ ______ _ _ I understand your requirements and fulfil all of them with great satisfaction.______________________________ 
+<span class="dr-portfolio">I am theme and module contributor on Drupal.org/ . Please review my project and contribution(commits) at here  -- https://www.drupal.org/user/2435188#footer __________ __________________ __________ ____ I am very flexible regarding to working time and support to meet my client's requirements. <span class="dr-remotely">I work hard and very easy to work with client remotely in spite of time-zone difference.</span>
+ __________ __________________ __ ____ Please PM me to start discussion and work. _ _ _ _ _ _ _  Regards, _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ - Shiv.
+</div>
+</td>
+<td class="right">
+<div class="buttons">
+<button onclick="toggle_visibility('dr-completion');">+/- Completion rate</button><br/> <br>
+<button onclick="toggle_visibility('dr-portfolio');">+/- Portfolio</button><br/> <br>
+<button onclick="toggle_visibility('dr-remotely');">+/- work remotely ...</button><br/>
+</div>
+Escrow to start the work and release after completion of the work
+</td>
+</tr><!-- drupal red box -->
+
+<tr class="wordpress green box">
+<td class="bid left" onclick="select_all(this)">
+<div>
+Hello, ____________________________ _______ ___   I am CERTIFIED WordPress EXPERT <span class="wp-completion">with HIGHEST Completion Rate</span>. ________ ____________ ________ ______ _ _ I understand your requirements and fulfil all of them with great satisfaction.______________________________ 
+<span class="wp-portfolio">I am theme and plugin contributor on WordPress.org/ . Please review my project and contribution(commits) at here  -- https://profiles.wordpress.org/itapplication/#content-plugins __________ __________________ __________ ____ I am very flexible regarding to working time and support to meet my client's requirements. <span class="wp-remotely">I work hard and very easy to work with client remotely in spite of time-zone difference.</span>
+ __________ __________________ __ ____ Please PM me to start discussion and work. _ _ _ _ _ _ _  Regards, _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ - Shiv.
+
+</div>
+</td>
+<td class="right">
+<div class="buttons">
+<button onclick="toggle_visibility('wp-completion');">+/- Completion rate</button><br/> <br>
+<button onclick="toggle_visibility('wp-portfolio');">+/- Portfolio</button><br/> <br>
+<button onclick="toggle_visibility('wp-remotely');">+/- work remotely ...</button><br/>
+</div>
+</td>
+</tr><!-- wordpress box -->
+
+<tr class="common box">
+<td class="bid left" onclick="select_all(this)">
+<div>
+Hello, ____________________________ _______ ___   I am CERTIFIED EXPERT <span class="co-completion">with HIGHEST Completion Rate</span>. I am PHP-MySQL developer and HTML, CSS, JavaScript, JQuery, CMS and Bootstrap expert.________ ____________ ________ ______ _ _ I understand your requirements and fulfil all of them with great satisfaction.______________________________ 
+<span class="co-portfolio"> I am Bootstrap contributor on GitHub.com/ . Please review my project and contribution(commits) at here  -- https://github.com/itapplication/Better-Bootstrap __________ __________________ __________ ____ I am very flexible regarding to working time and support to meet my client's requirements. <span class="co-remotely">I work hard and very easy to work with client remotely in spite of time-zone difference.</span>
+ __________ __________________ __ ____ Please PM me to start discussion and work. _ _ _ _ _ _ _  Regards, _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ - Shiv.
+</div>
+</td>
+<td class="right">
+<div class="buttons">
+<button onclick="toggle_visibility('co-completion');">+/- Completion rate</button><br/> <br>
+<button onclick="toggle_visibility('co-portfolio');">+/- Portfolio</button><br/> <br>
+<button onclick="toggle_visibility('co-remotely');">+/- work remotely ...</button><br/>
+</div>
+</td>
+</tr><!-- common box -->
+
+<tr>
+<td class="left bid" ><div style="padding:22px 0;" onclick="select_all(this)">
+_____________________________ __________ ____ -
+Here is estimated cost and milestone of work and payment.-
+I will prefer to split project into 2 milestone to make it easy to manage and to keep project as per schedule of the work.
+_____________________________ __________ ____ -
+** (1). In First phase I will work for -
+----- (i) I will work for navigation tabs design.
+----- (ii) I will convert existing design into mobile friendly and SEO optimize RESPONSIVE design.
+----- (iii) I require 40% milestone release upon completion of this second phase.
+_____________________________ __________ ____ -
+** (2). In Second phase I will -
+----- (i) Create one membership page and one membership feature of the site.
+----- (ii) Create forum section.
+----- (ii) Create social media pages for site. (Please inform me how many pages do you want?)
+----- (iv) Upon completion of this phase I require another 60% milestone to be release.
+</div>
+<p>
+ I require to release 30% initial payment Milestone to start the work. Remaining 70% payment Milestone will be require AFTER finishing of ALL work.
+<hr>
+
+ Here is estimated cost and milestone of work and payment.-
+I will prefer to split project into 3 milestone to make it easy to manage and to keep project as per schedule of the work.
+
+-- 1. In First phase I will -
+----- (a) Install and configure Core Framework on your hosting/server.
+----- (b) Install and configure all required modules.
+----- (c) Create Theme/Template as per your requirement and as per given design.
+
+I require another 40% milestone release upon completion of this second phase.*
+
+
+-- 2. In Second phase I will -
+----- (a) Create all required essential features mention in project spec.
+----- (a) Create all essentials 'content type' and taxonomies(if required).
+----- (b) create sections for dynamic pages, blocks/widget and regions(if required).
+----- (c) Create all required feature as per project spec and attached document.
+
+Upon completion of this phase I require another 40% milestone to be release.*
+
+
+-- 3. In Third phase we will -
+        Test site.
+        Fix bugs if found any.
+        Finish entire work and make site ready for production use.
+
+    *Release remaining last 20%.*
+
+<hr />
+
+far later and before accepting bid -
+---- For developing high quality, professional, eye appealing design we need world class high quality photo/graphic. I will search for that photo and PURCHASE it with respective license or copyright to create world class high quality HTML5-CSS3 template.
+
+<hr />
+**Traits**
+Honest
+Reliable
+Efficient
+Attention to detail
+Sensitivity to user experience
+Knack for getting things done
+Self-motivated problem solver
+Able to offer helpful suggestions 
+
+<hr />
+ Here is estimated cost and milestone of work and payment.-
+I will prefer to split project into 4 milestone to make it easy to manage and to keep project as per schedule of the work.
+
+-- 1. I require escrow and RELEASE first INITIAL milestone of 30% to start the work.
+-- 2. In second phase I will -
+----- (a) Install and configure Core Drupal Framework on your hosting/server.
+----- (b) Install and configure all required modules.
+----- (c) Create Drupal theme as per your requirement and as per given design in pdf
+
+I require another 25% milestone release upon completion of this second phase.*
+
+-- 3. In third phase I will -
+----- (a) Create all required essential features mention in project spec.
+----- (a) Create all essentials 'content type' and taxonomies(if required).
+----- (b) create all views to display data dynamically on various pages, blocks and regions(if required).
+----- (c) Create all required feature as per project spec and attached document.
+
+Upon completion of this phase I require another 20% milestone to be release.*
+
+-- 4. In fourth phase we will -
+        Test site.
+        Fix bugs if found any.
+        Finish entire work and make site ready for production use.
+
+    *Release remaining last 20%.*
+
+</td>
+<td class="right">
+<div ng-init="qty=1;cost=2">
+  <b>Invoice:</b>
+  <div>
+    Quantity: <input type="number" min="0" ng-model="qty">
+  </div>
+  <div>
+    Costs: <input type="number" min="0" ng-model="cost">
+  </div>
+  <div>
+    <b>Total:</b> {{qty * cost | currency}}
+  </div>
+</div>
+<p>
+Expressions test <br>
+{{300-15}}<br>
+{{2.87 + 0.2 *5}}
+</p>
+<div>
+</td>
+</tr></table>
+</div><!--#wraper-->
+</body>
+</html>
