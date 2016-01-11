@@ -10,5 +10,6 @@ Cross browser new tab page app created with simple clientside technology like HT
  * Font Awesome
  * Glipgycon
  * Dashicons
+
 #### Technology planning to use -
 * Bootstrap
