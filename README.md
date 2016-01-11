@@ -8,7 +8,7 @@ Cross browser new tab page app created with simple clientside technology like HT
 * JavaScript
 * Font icons
  * Font Awesome
- * Glipgycon
+ * Glyphicon
  * Dashicons
 
 #### Technology planning to be use -
