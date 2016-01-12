@@ -13,3 +13,6 @@ Cross browser new tab page app created with simple clientside technology like HT
 
 #### Technology planning to be use -
 * Bootstrap
+
+## Version 1.1.2
+For version change log refer changelog.txt
