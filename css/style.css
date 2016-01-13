@@ -83,3 +83,4 @@ a:hover {color:#bef; font-weight:700; text-decoration:none;}
 span.heading {margin:1em 0 2px 8px;float:left;clear:right;}
 .text i, .text .icon {float:left;}
 .text p {clear:both; width:100%; display:block;padding:1em 5px;}
+#credit {position:fixed;bottom:2px;right:4px;padding:4px 7px;background:rgba(0,0,0,0.3);color:#fff}
